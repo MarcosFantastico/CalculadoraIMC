@@ -1,0 +1,68 @@
+body{
+
+    background-image:url("/fotos/fita-metrica.jpg");
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 200px;
+    margin:300px 700px 0px 700px;
+    padding-bottom: 20px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    border:groove 5px grey;
+    border-radius: 20px 20px 20px 20px;
+
+    box-shadow: rgba(0, 0, 0, 0.267) 2px 2px 2px 2px;
+    
+}
+
+h1{
+    border-bottom:solid gray;
+}
+
+footer{
+    margin-top: 5px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+section>div>input[type="number"]{
+    margin-bottom: 10px;
+    background-color:transparent;
+    border:hidden;
+    border-bottom:solid 2px black;
+    width: auto;
+}
+
+
+
+section>div>input[id="peso"]{
+ 
+    width:183px;
+}
+
+input[type="submit"]{
+    align-self: center;
+
+    background-color:transparent;
+    border: solid 2px gray;
+    border-radius: 10px 10px 10px 10px;
+    color: gray;
+}
+
+input[type="submit"]:hover{
+    align-self: center;
+
+    transition:1s;
+
+    background-color:gray;
+    border: solid 2px gray;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+}
