@@ -2,21 +2,20 @@ body{
 
     background-image:url("../fotos/fita-metrica.jpg");
 
+    
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
-    margin-top: 200px;
-    margin:300px 700px 0px 700px;
-    padding-bottom: 20px;
+
+    
 
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
-    border:groove 5px grey;
-    border-radius: 20px 20px 20px 20px;
 
-    box-shadow: rgba(0, 0, 0, 0.267) 2px 2px 2px 2px;
     
+    overflow: hidden;
 }
 
 h1{
@@ -28,11 +27,28 @@ footer{
 }
 
 section{
+
+    width:300px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.61);
+
+    margin-top: 200px;
+    margin:300px 700px 500px 700px;
+    padding-bottom: 20px;
+
+
+    border:groove 5px grey;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.267) 2px 2px 2px 2px;
+    
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 
-section>div>input[type="number"]{
+section>div>input[type="number"],input[type="text"]{
     margin-bottom: 10px;
     background-color:transparent;
     border:hidden;
@@ -40,11 +56,20 @@ section>div>input[type="number"]{
     width: auto;
 }
 
-
+div[id="info"]
+{
+padding-top: 4px;
+font-size: small;
+text-align: center;
+}
 
 section>div>input[id="peso"]{
  
-    width:183px;
+    width:186px;
+}
+section>div>input[id="nome"]{
+ 
+    width:200px;
 }
 
 input[type="submit"]{
@@ -53,7 +78,6 @@ input[type="submit"]{
     background-color:transparent;
     border: solid 2px gray;
     border-radius: 10px 10px 10px 10px;
-    color: gray;
 }
 
 input[type="submit"]:hover{
@@ -66,3 +90,11 @@ input[type="submit"]:hover{
     border-radius: 10px 10px 10px 10px;
     color: white;
 }
+
+div.resultado{
+    margin-top:10px;
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
