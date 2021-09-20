@@ -36,7 +36,7 @@ function imc()
             classificacao = "Obesidade Grau III(mórbida)"
         }
 
-        resultado.textContent = `Olá ${nome}! pesando ${peso}kg e com ${altura}m de altura sua classificação é: ${classificacao}!`
+        resultado.textContent = `Olá ${nome}! pesando ${peso}kg e com ${altura}m de altura seu imc é ${Math.round(imc,2)} e sua classificação esta é sua classificação: ${classificacao}!`
     
     }
     else{
