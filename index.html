@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -8,20 +7,30 @@
     <title>IMC</title>
 </head>
 <body>
-    <h1>Cálculo IMC</h1>
     <section>
+    <h1>Cálculo IMC</h1>
+    
         <div>
-        <label for="altura">Altura:</label>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+        </div>
+
+        <div>
+        <label for="altura">Altura(m):</label>
         <input type="number" name="altura" id="altura">
         </div>
 
         <div>
-        <label for="peso">Peso:</label>
+        <label for="peso">Peso(kg):</label>
         <input type="number" name="peso" id="peso">
         </div>
-        <input type="submit" value="Calcular">
-    </section>
+        <input type="submit" value="Calcular" id="calcular">
+
+        <div class="resultado" id="resultado"></div>
+
     <footer>&copy;Cotemig</footer>
+    <div id = "info">Atenção! O IMC deve ser interpretado somente por um profissional de saúde.</div>
+    </section>
     <script src="js/script.js"></script>
 </body>
 </html>
