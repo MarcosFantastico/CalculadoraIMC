@@ -1,6 +1,6 @@
 body{
 
-    background-image:url("/fotos/fita-metrica.jpg");
+    background-image:url("../fotos/fita-metrica.jpg");
 
     display: flex;
     justify-content: center;
